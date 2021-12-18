@@ -1,0 +1,73 @@
+h1 {
+  color: white;
+  font: monospace;
+}
+
+h2 {
+  color: white;
+}
+
+div h2 {
+  text-aling: center;
+}
+
+.header__div--font {
+  font-family: monospace;
+  text-align: center;
+}
+
+.footer--imagenFondo {
+  background-image: linear-gradient(to top left, deepskyblue, purple);
+  color: white;
+}
+
+.container__h3--colorTexto {
+  color: white;
+  text-transform: capitalize;
+}
+
+.article__p--texto {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: black 2px 2px;
+}
+
+.section__div--bordes {
+  border: 3px solid deepskyblue;
+}
+
+.article__div--texto {
+  text-align: center;
+}
+
+.footer--texto {
+  text-transform: capitalize;
+}
+
+.header--align {
+  text-align: left;
+}
+
+.article__a--texto {
+  text-aling: center;
+  color: white;
+}
+
+.table--fondo {
+  background-image: linear-gradient(to top left, deepskyblue, purple);
+}
+
+.bucle-1 {
+  background-color: #1a1a1a;
+}
+
+.bucle-2 {
+  background-color: #333333;
+}
+
+.bucle-3 {
+  background-color: #4d4d4d;
+}
+
+/*# sourceMappingURL=estilosSass.css.map */

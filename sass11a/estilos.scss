@@ -1,0 +1,87 @@
+$color1: purple;
+$color2: white;
+$color3: black;
+$small: 1rem;
+$medium: 2rem;
+$large: 3rem;
+$font1: monospace;
+$background-image1: url("Desafio entregable/Imagenes para proyecto/imagenFondo.jpg");
+$background-image2: linear-gradient(to top left, deepskyblue , purple);
+$tamañoGrande: 100%;
+$tamañoMediano: 50%;
+$tamañoChico: 33%;
+
+
+h1{
+	color: $color2;
+	font: $font1;
+}
+
+h2{
+	color:$color2;
+}
+
+div{
+	h2{
+		text-aling: center;
+	}
+}
+
+
+
+.header__div--font{
+	font-family: $font1;
+}
+
+.footer--imagenFondo{
+	background-image: $background-image2;
+	color: $color2;
+}
+
+.container__h3--colorTexto{
+	color: $color1;
+	text-transform: capitalize;
+}
+
+.article__p--texto{
+	color: $color2;
+}
+
+.section__div--bordes{
+	border: 3px solid deepskyblue;
+}
+
+.article__div--texto{
+	text-align: center;
+}
+
+.footer--texto{
+	text-transform: capitalize;
+}
+
+.header--align{
+	text-align: center;
+}
+
+.article__a--texto{
+	text-aling: center;
+	color: $color2;
+}
+
+
+.table--fondo{
+	background-image: $background-image2;
+}
+
+$base-color: black;
+
+@for $in from 1 through 3 {
+	
+	.bucle-#{$in} {
+	background-color: lighten($base-color, $in * 10%)
+	}
+}
+
+
+
+
